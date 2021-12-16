@@ -10,12 +10,12 @@ function Book({
     isbn,
     published_date: publishedDate,
     authors,
-    books_id,
+    book_id,
   },
   showDetail = false,
 }) {
   return (
-    <Link to={`/books/${books_id}`}>
+    <Link to={`/books/${book_id}`}>
       <article className="book">
         <h3>{title}</h3>
         <address>
